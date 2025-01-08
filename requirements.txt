@@ -7,6 +7,5 @@ matplotlib
 wordcloud
 nltk
 numpy
-string
 textblob
 re
