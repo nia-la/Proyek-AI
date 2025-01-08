@@ -1,6 +1,6 @@
 streamlit
-pandas
-pip
+pandas==2.2.2
+pip==24.3.1
 joblib
 seaborn
 matplotlib
