@@ -3,5 +3,5 @@ pandas
 pip
 joblib
 seaborn
-matplotlib
-wordcloud
+matplotlib==3.8.3
+wordcloud==1.9.4
