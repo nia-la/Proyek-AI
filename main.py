@@ -89,7 +89,6 @@ if page == 'Pencarian':
             st.warning("Harap masukkan nama hotel untuk mencari ulasan.")
 
 elif page == 'Sentimen':
-    st.write("**Analisis Teks Individu**")
     input_text = st.text_area("Masukkan teks ulasan:")
 
     if st.button("Analisis Sentimen"):
@@ -104,8 +103,8 @@ elif page == 'Sentimen':
         else:
             st.warning("Harap masukkan teks sebelum menganalisis.")
 
-    st.write("**Analisis Batch Ulasan**")
-    file_upload = st.file_uploader("Unggah file CSV dengan kolom 'Review_Text':", type=["csv"])
+    st.write("**Analisis Sentimen pada suatu File**")
+    file_upload = st.file_uploader("Unggah file CSV yang berisi teks review", type=["csv"])
 
     if file_upload:
         df = pd.read_csv(file_upload)
