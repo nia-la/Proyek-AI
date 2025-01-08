@@ -5,7 +5,3 @@ joblib
 seaborn
 matplotlib
 wordcloud
-nltk
-numpy
-textblob
-re
