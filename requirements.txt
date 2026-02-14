@@ -5,3 +5,5 @@ seaborn==0.12.2
 matplotlib==3.7.1
 wordcloud == 1.9.4
 numpy == 1.26.4
+
+pip install --upgrade pip
